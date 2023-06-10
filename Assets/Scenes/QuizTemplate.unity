@@ -1872,7 +1872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53eb6c8329cf0304dad36e6d5b9b9b95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1362624892}
+  target: {fileID: 892752521}
   headRotationLimit: 60
 --- !u!81 &844293584
 AudioListener:
@@ -2109,7 +2109,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70cce0afbb6e8ef4ab420b24e00daced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 4
+  groundDrag: 5
+  speedModifier: 10
+  jumpPower: 0.5
+  airMultiplier: 0.5
+  playerHeight: 2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 128
+  orientation: {fileID: 844293586}
 --- !u!54 &892752523
 Rigidbody:
   m_ObjectHideFlags: 0
